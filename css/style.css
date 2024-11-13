@@ -17,6 +17,12 @@
     margin-right: auto;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 /* ------------------
     TYPOGRAPHY
@@ -43,6 +49,18 @@ h3{
 
 
 
+/*----------------
+    BUTTONS
+------------------*/
+.btn {
+    background-color: transparent;
+    font-family: inherit;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
 
 
 /* ------------------
@@ -58,6 +76,7 @@ header{
     left: 0;
     z-index: 10;
 }
+
 
 
 
@@ -77,6 +96,69 @@ main{
     display: none;
 }
 
+img{
+    width: 100%;
+}
+
+.col-video{
+    width: 100%;
+}
+
+.col-detail{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    line-height: 2em;
+    background-color: white;
+}
+
+.col-detail p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.link-social{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    background: white;
+    border-radius: 50%;
+    width: 42px;
+    height: 34px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* ------------------
+    LOGHI SOCIAL
+------------------ */
+.fa-facebook{
+    color: #1a77f3;
+}
+
+.fa-twitter{
+    color: #009eff;
+}
+
+.fa-instagram{
+    color: #df5db2;
+}
+
+.fa-pinterest{
+    color: red;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+
+
+
 /* ------------------
     LAYOUT
 ------------------ */
@@ -89,6 +171,13 @@ main{
     }
 }
 
-@media screen and (min-width 992px) {
+@media screen and (min-width: 992px) {
+    .col-video{
+        width: 70%;
+    }
     
+    .col-detail{
+        width: 30%;
+        flex-wrap: wrap;
+    }
 }
