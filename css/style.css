@@ -126,10 +126,13 @@ img{
 
 .circle {
     background: white;
-    border-radius: 50%;
+    border-radius: 45%;
     width: 42px;
-    height: 34px;
+    height: 36px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -169,8 +172,11 @@ img{
     .intro h2 span{
         display: inline;
     }
-    .col-detail{
+    .info-container{
         display: flex;
+    }
+    .information {
+        width: calc(100% / 3);
     }
 }
 
@@ -178,9 +184,15 @@ img{
     .col-video{
         width: 70%;
     }
-    
     .col-detail{
         width: 30%;
         flex-wrap: wrap;
+    }
+    .info-container{
+        display: block;
+        line-height: 2.5em;
+    }
+    .information {
+        width: auto;
     }
 }
