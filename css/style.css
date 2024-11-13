@@ -135,28 +135,40 @@ img{
     align-items: center;
 }
 
+.nomi-social{
+    display: none;
+}
+
+.pubblicita{
+    display: none;
+}
 
 /* ------------------
     LOGHI SOCIAL
 ------------------ */
 .fa-facebook{
     color: #1a77f3;
+    margin-right: 5px;
 }
 
 .fa-twitter{
     color: #009eff;
+    margin-right: 5px;
 }
 
 .fa-instagram{
     color: #df5db2;
+    margin-right: 5px;
 }
 
 .fa-pinterest{
     color: red;
+    margin-right: 5px;
 }
 
 .fa-youtube{
     color: red;
+    margin-right: 5px;
 }
 
 
@@ -178,6 +190,15 @@ img{
     .information {
         width: calc(100% / 3);
     }
+    .circle{
+       width: 120px; 
+       height: 40px;
+    }
+    .pubblicita{
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -195,4 +216,12 @@ img{
     .information {
         width: auto;
     }
+    .circle{
+        width: 140px; 
+        height: 45px;
+     }
+    .nomi-social{
+        display: block;
+    }
+    
 }
