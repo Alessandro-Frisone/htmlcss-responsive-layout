@@ -196,6 +196,21 @@ img{
     margin-right: 5px;
 }
 
+/* ------------------
+    FOOTER
+------------------ */
+footer{
+    background-color: #7965a1;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2.3em;
+}
+footer a{
+    color: white;
+}
+
+
 
 
 
