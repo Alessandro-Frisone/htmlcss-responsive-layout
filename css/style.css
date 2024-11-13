@@ -47,6 +47,11 @@ h3{
     color: gray;
 }
 
+.presentation h3{
+    font-size: 2em;
+    color: black;
+    margin-top: 40px;
+}
 
 
 /*----------------
@@ -142,6 +147,15 @@ img{
 .pubblicita{
     display: none;
 }
+
+.presentation hr{
+   color: #f7a042; 
+   max-width: 10%;
+   margin-top: 15px;
+}
+
+
+
 
 /* ------------------
     LOGHI SOCIAL
